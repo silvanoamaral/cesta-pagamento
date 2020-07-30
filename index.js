@@ -9,7 +9,7 @@ const port = 3001
 const jsonParser = bodyParser.json()
 
 app.get('/', (req, res) => {
-  res.send('Olá mundo!!!')
+  res.send('Olá mundo')
 })
 
 app.get('/basket/getBasket/:uuid', (req, res) => {
